@@ -11,9 +11,9 @@ body{
  .header{
   background-color:yellow;
   height: 90px;
-     width:1300px;
+  width:1300px;
+  border-radius: 10px 20px;
  } 
-
 .header-logo {
     font-size:36px;
     float:left;
@@ -21,7 +21,7 @@ body{
 }
 .header-list li{
   float:left;
-  padding:30px 40px;
+  padding:15px 40px;
 }
 
 .main{
@@ -37,6 +37,9 @@ img{
 h1{
   border-bottom:4px solid black;
 }
+h2{
+  border-bottom:1px solid black;
+}
 h3 {
   font-size:18px;
 }
@@ -49,17 +52,14 @@ h5{
 h6{
   font-size: 18px;
 }
+
 .footer{
   background-color: blueviolet;
   color:white;
   height:120px;
   padding:50px;
+  border-radius:10px 20px;
 }
-.footer-list{
-  float:right;
-
-}
-.footer-list li{
-margin-bottom:20px;
-float:left;
+span{
+  color:red;
 }
